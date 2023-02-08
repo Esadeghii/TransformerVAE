@@ -1,5 +1,5 @@
 
-# Elham Sadeghi 4/2/23
+# Elham Sadeghi February 2023
 
 #This file generates logs of runs with various parameters
 
