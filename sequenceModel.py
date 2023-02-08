@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Feb 4 2023
+Created on February 2023
 @author: Elham Sadeghi
 """
 import torch
