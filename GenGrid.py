@@ -23,13 +23,13 @@ os.environ["CUDA_VISIBLE_DEVICES"]=""
 
 batchSize = 32
 
-numEpochs = 500
+numEpochs = 2
 alphas = [0.003]
 betas = [0.007]
 gammas = [2]
 deltas = [1]
 dropout =  [0]
-latentDims= [64]
+latentDims= [15]
 d_model = [4]
 num_heads = [2] #it must be devisible by d_model
 stack = [1]
