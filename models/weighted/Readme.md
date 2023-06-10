@@ -1,1 +1,0 @@
-This folder is for weighted, non-kfold models from genGrid.py

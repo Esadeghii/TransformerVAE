@@ -19,7 +19,7 @@ os.chdir(sys.path[0]) #compatability hack
 
 class SequenceDataset:
     
-    def __init__(self,datafile = './data-and-cleaning/cleandata.csv', seqlen=10, split=(0.85, 0.15), noofbuckets = 7):
+    def __init__(self,datafile = './data-and-cleaning/cleandata_4Feb.csv', seqlen=10, split=(0.85, 0.15), noofbuckets = 7):
         self.dataset = pd.read_csv(datafile)
         if "Unnamed: 0" in self.dataset.columns:
             self.dataset.drop(columns=["Unnamed: 0"],inplace=True)
