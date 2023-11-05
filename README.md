@@ -4,9 +4,9 @@
 
 
 
-
+![Logo](https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/150px-University_of_California%2C_Irvine_seal.svg.png)![Logo]
 ![Logo](https://www.cs.albany.edu/sccepr/img/logo1.png)
-![Logo](https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/150px-University_of_California%2C_Irvine_seal.svg.png)![Logo](https://www.cs.albany.edu/~petko/lab/img/logo1.png)
+(https://www.cs.albany.edu/~petko/lab/img/logo1.png)
 
 
 ## Contents 
