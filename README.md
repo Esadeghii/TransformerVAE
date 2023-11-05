@@ -4,9 +4,12 @@
 
 
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/150px-University_of_California%2C_Irvine_seal.svg.png" alt="University of California, Irvine Logo" width="100">
-<img src="https://www.cs.albany.edu/sccepr/img/logo1.png" alt="University Logo" width="100">
-<img src="https://www.cs.albany.edu/~petko/lab/img/logo1.png" alt="Lab Logo" width="100">
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/150px-University_of_California%2C_Irvine_seal.svg.png" alt="University of California, Irvine Logo" width="200">
+    <img src="https://www.cs.albany.edu/sccepr/img/logo1.png" alt="University Logo" width="200">
+    <img src="https://www.cs.albany.edu/~petko/lab/img/logo1.png" alt="Lab Logo" width="200">
+</div>
+
 
 
 ## Team
