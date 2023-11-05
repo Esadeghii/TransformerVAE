@@ -4,9 +4,10 @@
 
 
 
-![Logo](https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/150px-University_of_California%2C_Irvine_seal.svg.png)
-![Logo](https://www.cs.albany.edu/sccepr/img/logo1.png)
-![Logo](https://www.cs.albany.edu/~petko/lab/img/logo1.png)
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/150px-University_of_California%2C_Irvine_seal.svg.png" alt="University of California, Irvine Logo" width="100">
+<img src="https://www.cs.albany.edu/sccepr/img/logo1.png" alt="University Logo" width="100">
+<img src="https://www.cs.albany.edu/~petko/lab/img/logo1.png" alt="Lab Logo" width="100">
+
 
 ## Team
 - [Stacy Copp](https://copplab.eng.uci.edu/)
