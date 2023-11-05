@@ -8,7 +8,9 @@
 ![Logo](https://www.cs.albany.edu/sccepr/img/logo1.png)
 ![Logo](https://www.cs.albany.edu/~petko/lab/img/logo1.png)
 
-
+## Team
+- [Petko Bogdanov](http://www.cs.albany.edu/~petko/lab/)
+- [Stacy Copp](https://copplab.eng.uci.edu/)
 ## Contents 
 
  - Introduction
