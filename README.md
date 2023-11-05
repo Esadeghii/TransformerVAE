@@ -43,19 +43,17 @@ Our approach demonstrates remarkable versatility in designing Ag𝑁-DNAs tailor
 ![Logo](https://imageupload.io/ib/Ke1xrj8yJHCngG2_1699200592.png)
 
 ## How to Run the Project
-- `/VAE/utils/`: 
-    - `/VAE/utils/helpers.py`:
-    - `/VAE/utils/model.py`:
-    - `/VAE/utils/trainer.py`:
-- `/VAE/genGrid.py`: 
-- `/VAE/plotRun.py`: 
-- `/VAE/sampleSeqs.py`: 
-- `/VAE/sequenceDataset.py`: 
-- `/VAE/sequenceModel.py`: 
-- `/VAE/kfoldDataset.py`: 
-- `/VAE/kfoldPlotter.py`: 
-- `/VAE/pcaVisualization.py`: 
-- `/VAE/shapley-gaussian.py`: 
-- `/VAE/shap-plot.ipynb`: 
-- `/VAE/violinWavProxy.py`: 
-- `/VAE/requirements.txt`:     
+- `/VAE/utils/`: This directory contains code derived from the original VAE paper, with additional utilities for training the Torch model.
+    - `/VAE/utils/helpers.py`: Within this file, you'll find functions designed to handle the availability of CUDA (GPU) resources, providing utility in managing GPU usage.
+    - `/VAE/utils/model.py`: This file defines an abstract model that extends the capabilities of the torch.nn.Module class, offering convenient QoL helper functions for model development.
+    - `/VAE/utils/trainer.py`: In this file, you'll discover an abstract trainer, which introduces mathematical utilities used within the loss function during training.
+- `/VAE/genGrid.py`: This Python script serves as the entry point for conducting grid searches within your project. 
+- `/VAE/plotRun.py`: This script is responsible for converting the run logs into visual plots.
+- `/VAE/sampleSeqs.py`:  Here, you'll find code that generates a list of sequences using the model you've developed.
+- `/VAE/sequenceDataset.py`: This file contains the code for loading the dataset, facilitating the preparation of data for the experiments.
+- `/VAE/sequenceModel.py`: Within this file, you'll find the concrete implementation of the model for the AR-VAE. 
+- `/VAE/kfoldrun.py`: This script is used for k-fold cross-validation, a technique that enhances model evaluation by splitting the dataset into 'k' parts for more reliable performance assessment.
+- `/VAE/kfoldPlotter.py`: This Python script is designed to create plots and visualizations of the results obtained from `kfoldrun.py` 
+- `/VAE/shapley-gaussian.py`: This script calculates the Gaussian Shapley value for a specific group, requiring the mean and standard deviation proxies of the group's data to analyze motifs or feature importance within that group.
+- `/VAE/shap-plot.ipynb`: This Jupyter Notebook utilizes Shapley values to generate visualizations, including heatmaps and line graphs, to explore and analyze subsequences and their importance within the dataset.
+- `/VAE/requirements.txt`: Here, you can find a list of pip requirements essential for running your project successfully.   
