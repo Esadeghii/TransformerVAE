@@ -42,7 +42,7 @@ Our approach demonstrates remarkable versatility in designing Ag𝑁-DNAs tailor
 
 ![Logo](https://imageupload.io/ib/Ke1xrj8yJHCngG2_1699200592.png)
 
-## How to Run the Project
+## Outline
 - `/VAE/utils/`: This directory contains code derived from the original VAE paper, with additional utilities for training the Torch model.
     - `/VAE/utils/helpers.py`: Within this file, you'll find functions designed to handle the availability of CUDA (GPU) resources, providing utility in managing GPU usage.
     - `/VAE/utils/model.py`: This file defines an abstract model that extends the capabilities of the torch.nn.Module class, offering convenient QoL helper functions for model development.
