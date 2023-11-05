@@ -8,7 +8,7 @@
     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/150px-University_of_California%2C_Irvine_seal.svg.png" alt="University of California, Irvine Logo" width="80">
     <img src="https://www.cs.albany.edu/~petko/lab/img/logo1.png" alt="Lab Logo" width="200">
 </div>
-<img src="https://www.cs.albany.edu/sccepr/img/logo1.png" alt="University Logo" width="250">
+<img src="https://www.cs.albany.edu/sccepr/img/logo1.png" alt="University Logo" width="260">
 
 
 
@@ -53,7 +53,7 @@ Our approach demonstrates remarkable versatility in designing Ag𝑁-DNAs tailor
 - `/VAE/sequenceDataset.py`: This file contains the code for loading the dataset, facilitating the preparation of data for the experiments.
 - `/VAE/sequenceModel.py`: Within this file, you'll find the concrete implementation of the model for the AR-VAE. 
 - `/VAE/kfoldrun.py`: This script is used for k-fold cross-validation, a technique that enhances model evaluation by splitting the dataset into 'k' parts for more reliable performance assessment.
-- `/VAE/kfoldPlotter.py`: This Python script is designed to create plots and visualizations of the results obtained from `kfoldrun.py` 
+- `/VAE/kfoldPlotter.py`: This Python script is designed to create plots and visualizations of the results obtained from kfoldrun.py 
 - `/VAE/shapley-gaussian.py`: This script calculates the Gaussian Shapley value for a specific group, requiring the mean and standard deviation proxies of the group's data to analyze motifs or feature importance within that group.
 - `/VAE/shap-plot.ipynb`: This Jupyter Notebook utilizes Shapley values to generate visualizations, including heatmaps and line graphs, to explore and analyze subsequences and their importance within the dataset.
 - `/VAE/requirements.txt`: Here, you can find a list of pip requirements essential for running your project successfully.   
