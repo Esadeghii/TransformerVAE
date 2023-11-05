@@ -9,8 +9,8 @@
 ![Logo](https://www.cs.albany.edu/~petko/lab/img/logo1.png)
 
 ## Team
-- [Petko Bogdanov](http://www.cs.albany.edu/~petko/lab/)
 - [Stacy Copp](https://copplab.eng.uci.edu/)
+- [Petko Bogdanov](http://www.cs.albany.edu/~petko/lab/)
 ## Contents 
 
  - Introduction
